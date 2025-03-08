@@ -1,0 +1,14 @@
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/TesteDemoApplication.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/controllerAdvice/CustomExceptionHandler.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/controllers/PessoaController.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/dto/PessoaDto.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/exceptions/ApiErrorMessage.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/exceptions/CustomSistemaException.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/exceptions/UsuarioValidacaoException.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/interfaces/IPessoa.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/interfaces/IPessoaService.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/model/Pessoa.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/records/PessoaRecord.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/repositorys/PessoaRepository.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/services/PessoaService.java
+/home/tales/projetos/workspace/testeDemo/src/main/java/br/com/mtinet/testeDemo/validadores/ValidadorCnpj.java
