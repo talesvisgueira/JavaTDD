@@ -1,9 +1,11 @@
 package br.com.mtinet.testeDemo.validadores;
 
+import br.com.mtinet.testeDemo.exceptions.ValidateCnpjException;
+
 public class ValidadorCnpj {
 
-    public static boolean execute(String cnpj) {
-        if (cnpj==null) return false;
+    public static boolean execute(String cnpj) throws ValidateCnpjException {
+        if (cnpj==null) throw new ValidateCnpjException("Valor nulo");;
         String numeros = ajustarCnpj(cnpj);
         return validarNumeracaoCnpj(numeros);
     }
