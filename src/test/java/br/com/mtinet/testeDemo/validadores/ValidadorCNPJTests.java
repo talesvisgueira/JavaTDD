@@ -11,7 +11,7 @@ class ValidadorCNPJTests {
     @Test
     @DisplayName("Não deve validar CNPJ nulo")
     public void naoDeveraValidarCNPJNulo() {
-        String cnpj = null;
+        String cnpj = "65464646464";
         Assertions.assertThatThrownBy(() ->ValidadorCnpj.execute(cnpj))
         .isInstanceOf(ValidateCnpjException.class)
         .hasMessageStartingWith("Valor nulo");
