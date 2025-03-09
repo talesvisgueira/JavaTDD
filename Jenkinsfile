@@ -1,31 +1,31 @@
 pipeline {
     agent any
     stages {
-        stage('PRIMEIRO PASSO') {
+        stage('BUILD DO PROJETO') {
             steps {
                 sh 'echo INICIANDO PIPELINE DO PROJETO'
                 sh 'mvn clean package -DskipTests=true'
             }
         }
-        stage('SEGUNDO PASSO') {
+        stage('TESTES UNITÁIROS') {
             steps {
                 sh 'echo TESTES UNITARIOS'
-                sh 'mvh test'
+                sh 'mvn test'
             }
         }
-        stage('TERCEIRO PASSO') {
-            steps {
-                sh 'echo TESTES FUNCIONAIS'
-            }
-        }
-        stage('QUARTO PASSO') {
+        stage('TESTES FUNCIONAIS') {
             steps {
                 sh 'echo ANALISE CODIGO'
             }
         }
-        stage('QUINTO PASSO') {
+        stage('ANALISE CODIGO') {
             steps {
-                sh 'echo DEPLOYS'
+                sh 'echo ANALISE CODIGO'
+            }
+        }
+        stage('DEPLOY') {
+            steps {
+                sh 'echo DEPLOY'
             }
         }
     }
